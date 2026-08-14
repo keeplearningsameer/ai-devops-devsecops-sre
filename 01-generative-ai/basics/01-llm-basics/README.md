@@ -25,3 +25,21 @@ Python Application
 
 ```text
 Explain Kubernetes to a DevOps engineer who is new to Generative AI.
+
+## Key Learning
+
+- How to make an LLM API call from Python.
+- How to send a prompt to an LLM.
+- How to receive and print the generated response.
+- How OpenAI-compatible APIs can be used with different LLM providers.
+
+## API Key Security
+
+The API key is not stored in the source code.
+
+The application reads it from:
+
+```python
+os.environ["OPENROUTER_API_KEY"]
+
+The actual API key is kept outside the Git repository.
