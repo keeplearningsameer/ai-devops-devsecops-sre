@@ -1,0 +1,13 @@
+Kubernetes is a container orchestration platform used to deploy, manage, and scale containerized applications. Kubernetes uses Pods as the smallest deployable units.
+
+A Kubernetes Service provides a stable network endpoint for accessing a group of Pods. Services can expose applications internally or externally depending on their configuration.
+
+Prometheus is a monitoring and alerting system commonly used with Kubernetes. It collects time-series metrics and can be used to monitor application and infrastructure health.
+
+Grafana is a visualization and observability platform. It can query data sources such as Prometheus and display metrics through dashboards.
+
+Terraform is an infrastructure as code tool. It allows infrastructure resources to be defined in configuration files and managed consistently through automation.
+
+A Kubernetes Deployment manages a set of replicated Pods. Deployments support rolling updates and help maintain the desired number of application replicas.
+
+CrashLoopBackOff means that a Kubernetes container is repeatedly starting and failing. Common causes include application errors, incorrect configuration, missing environment variables, failed dependencies, or insufficient permissions.
